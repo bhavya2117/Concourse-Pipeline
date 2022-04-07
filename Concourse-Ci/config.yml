@@ -1,0 +1,11 @@
+# Docker
+docker-hub-email: bhavya.garg@knoldus.com
+docker-hub-username: bhavya2117
+docker-hub-password: RRWbNr%[S6w[],-
+docker-hub-repo-name: code-insights
+
+# Kubernetes
+server: <<API SERVER URI>>
+namespace: <<NAMESPACE>>
+cad: <<CERT AUTH DATA>>
+token: <<K8 TOKEN>>
