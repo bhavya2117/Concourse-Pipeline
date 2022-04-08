@@ -32,7 +32,7 @@ public class PullRequestController {
     private PullRequestService pullRequestService;
     List<Values> actualResponse;
 
-    //List pull requests for a specific user
+    //List pull requests for a specific user hh
     @GetMapping(value = "/specificUser")
     private ResponseEntity<List<Values>> getAllPrForSpecificUser(@RequestParam(required = true) String user) throws JsonProcessingException {
         actualResponse = pullRequestService.getAllPrForSpecificUser(user);
